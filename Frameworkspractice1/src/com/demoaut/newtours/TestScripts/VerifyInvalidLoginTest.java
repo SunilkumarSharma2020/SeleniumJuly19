@@ -20,6 +20,7 @@ public class VerifyInvalidLoginTest {
 	@BeforeTest
 	
 	public void openApplication() {
+		//making code changes after R1.1
 		System.setProperty("Webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://www.newtours.demoaut.com/");
